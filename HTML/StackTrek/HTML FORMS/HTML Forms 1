@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Register</h1>
+
+<form>
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname" value="Xavier"><br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname" value="StackTrek">
+</form>
+
+<h1>Login Credentials</h1>
+
+<form>
+  <label for="fname">Username:</label>
+  <input type="text" id="user" name="user" value="XavierStackTrek"><br>
+  <label for="lname">Password:</label>
+  <input type="password" id="pass" name="pass" value="123"><br>
+  <label for="lname">Confirm Password:</label>
+  <input type="password" id="confirm" name="confirm" value="123"><br>
+
+	<input type="submit" value="register">
+</form>
+
+
+</body>
+</html>
