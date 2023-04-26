@@ -1,0 +1,14 @@
+body{
+    background-color: cornflowerblue;
+    font-family: verdana;
+}
+
+.copyright {
+    font-size: 12.5px;
+
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}

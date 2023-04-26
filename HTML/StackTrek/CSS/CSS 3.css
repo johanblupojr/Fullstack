@@ -1,0 +1,30 @@
+h1 {
+    padding: 10px; 
+    background-color:green;
+    color: white;
+}
+
+strong, em{
+    color: blue;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h3 {
+    color: red;
+}
+
+a {
+    color: green;
+    text-decoration: underline;
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+}
+
+
