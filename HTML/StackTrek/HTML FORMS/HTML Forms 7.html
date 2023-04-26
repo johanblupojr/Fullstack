@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise: Multiplication Table</title>
+    <style>
+      table {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-collapse: collapse;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+      }
+
+      th:first-child, td:first-child {
+        background-color: lightgray;
+      }
+
+      input[type="number"] {
+        width: 75%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multiplication Table</h1>
+    <p>Fill in the missing numbers in the multiplication table below:</p>
+   
+    <form>
+      <table>
+        <tr>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>2</td>
+            <td><input type="text" id="number1" name="answer1" pattern="[0-9]{1,}"></td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>3</td>
+            <td>6</td>
+            <td><input type="text" id="number2" name="answer2" pattern="[0-9]{1,}"></td>
+        </tr>
+      </table>
+
+    <br>
+
+    <input type="submit" value="Submit">
+    </form>
+    
+  </body>
+</html>
