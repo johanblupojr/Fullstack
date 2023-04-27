@@ -1,15 +1,16 @@
-
-head {
-    width: 1000px;
-}
 body {
-    width: 1000px;
+    width: 800px;
     background-color:rgb(226, 172, 127);
     text-align: center;
     font-family: verdana;
-    font-style: bold;
     margin: 10px auto 10px auto;
-    
+}
+
+h1 {
+    margin: 0;
+    font-style: italic;
+    font-family: Impact;
+
 }
 
 div {
@@ -18,12 +19,14 @@ div {
 }
 
 p {
-    padding: 0 100px 0 100px;
+    text-align: justify;
+    padding: 0 25px 0 25px;
 
 }
 
 li::first-letter{
     font-size: 150%;
+    font-style: italic;
 }
 
 li{
