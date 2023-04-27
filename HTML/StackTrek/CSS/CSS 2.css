@@ -4,6 +4,7 @@ body {
     text-align: center;
     font-family: verdana;
     margin: 10px auto 10px auto;
+    
 }
 
 h1 {
@@ -26,13 +27,13 @@ p {
 
 li::first-letter{
     font-size: 150%;
-    font-style: italic;
+    font-weight: 600;
 }
 
 li{
     font-style:italic;
-
 }
+
 ul {
     list-style-type:none;
 }
