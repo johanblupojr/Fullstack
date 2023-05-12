@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Name Display</title>
+</head>
+<body>
+  <label for="name-input">Enter your name:</label>
+  <input type="text" id="name-input">
+  <div id="name-display">Hello</div>
+  
+  <script>
+    var nameInput = document.getElementById("name-input");
+    var nameDisplay = document.getElementById("name-display");
+
+    nameInput.addEventListener("input", () => {
+      nameDisplay.textContent = 'Hello '+ nameInput.value;
+    });
+
+  </script>
+</body>
+</html>
