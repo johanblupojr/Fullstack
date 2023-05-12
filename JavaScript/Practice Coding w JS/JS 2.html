@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Toggle Button</title>
+</head>
+<body>
+  <button id="toggle-button">Open</button>
+  
+  <script>
+    const toggleButton = document.getElementById("toggle-button");
+    
+    toggleButton.addEventListener("click", toggle);
+    function toggle() {
+      if (toggleButton.textContent == "Open") {
+        toggleButton.textContent = "Close";
+      } else {
+        toggleButton.textContent = "Open";
+      }
+    };
+  </script>
+</body>
+</html>

@@ -13,9 +13,10 @@
     var nameInput = document.getElementById("name-input");
     var nameDisplay = document.getElementById("name-display");
 
-    nameInput.addEventListener("input", () => {
+    nameInput.addEventListener("input", output);
+    function output() {
       nameDisplay.textContent = 'Hello '+ nameInput.value;
-    });
+    };
 
   </script>
 </body>
