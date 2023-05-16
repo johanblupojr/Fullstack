@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Timer Countdown</h3>
+
+<button onclick="startTimer()" id="timer">Timer</button>
+<script>
+    i = 100;
+function startTimer(){
+    document.getElementById("timer").innerHTML = "";
+    setInterval(timerCountdown, 1000);
+}    
+
+
+function timerCountdown() {
+  	document.getElementById("timer").innerHTML = i--;
+}
+</script>
+
+</body>
+</html>
